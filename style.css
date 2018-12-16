@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body div {
+  margin: 0;
+  padding: 0;
+}
+
+.element1 {
+ background-color: yellow;
+ width: 150px;
+ height: 150px;
+ display: inline-block;
+}
+
+h2 {
+  color: white;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  z-index: 3;
+}
+
+.element2 {
+ background-color: blue;
+ width: 150px;
+ height: 150px;
+ display: inline-block;
+ position: absolute;
+ top: 50px;
+ left: 50px;
+ z-index: 2;
+}
+.element3 {
+ background-color: red;
+ width: 550px;
+ height: 150px;
+ display: inline-block;
+ position: absolute;
+ top: 100px;
+ left: 100px;
+ z-index: 1;
+}
